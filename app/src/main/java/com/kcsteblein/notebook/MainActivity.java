@@ -11,6 +11,11 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String NOTE_ID_EXTRA = "com.kcsteblein.notebook.Note Identifier";
+    public static final String NOTE_TITLE_EXTRA = "com.kcsteblein.notebook.Note Title";
+    public static final String NOTE_MESSAGE_EXTRA = "com.kcsteblein.notebook.Note Message";
+    public static final String NOTE_CATEGORY_EXTRA = "com.kcsteblein.notebook.Note Category";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
